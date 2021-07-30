@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PÁGINA DE CONTACTO</title>  
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />   
+  </head>
+  <body>
+    <header>
+      <a href="./" class="logo"><strong>LOGO</strong></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="./deportes.html">Deportes</a>
+          </li>
+          <li>
+            <a href="./humor.html">Humor</a>
+          </li>
+          <li>
+            <a href="./espectaculo.html">Espectáculo</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form>
+    <main>
+      <section>
+        <section>
+            <h2>Contacto</h2>
+          <div>            
+            <input id="name"name="name" class="name" type="text" placeholder="Nombre y Apellido" required/>
+          </div>          
+          <div>
+            <input id="edad" name="edad" class="name" type="number" min="18" max="80" placeholder="Edad" required/>
+          </div>          
+          <div>
+            <input id="email" name="email" class="name" type="email" placeholder="Email" required/>
+          </div>          
+          <div>
+            <select name="pais" id="pais" class="pais" required>
+              <option value=""></option>
+              <option value="1">Peru</option>
+              <option value="2">Argentina</option>
+              <option value="3">Chile</option>
+            </select>
+          </div>          
+          <div>
+            <h3>Sexo</h3>
+            <input type="radio" name="sex" value="f" id="sexf" /><label for="sexf">F</label>
+            <input type="radio" name="sex" value="m" id="sexm" /><label for="sexm">M</label>            
+          </div>
+          <div>
+              <h3>Intereses</h3>
+              <input type="checkbox" id="tech" value="tech" /><label for="tech">Tecnologia</label>
+            <input type="checkbox" id="politic" value="politic" /><label for="politic">Politica</label>
+            <input type="checkbox" id="moda" value="moda" /><label for="moda">Moda</label>
+          </div>
+          <br>
+          <div>            
+            <textarea name="comment" id="comment" class="comment" cols="10" rows="10" placeholder="Comentarios"></textarea>
+          </div>
+          <div>
+            <button type="submit">ENVIAR</button>
+            <button type="reset">BORRAR</button>
+          </div>          
+        </section>
+        <section>
+            <h2>UBÍCANOS</h2>
+            <div>
+                <p>Dirección: Chosica 123</p>
+            </div>
+            <div>
+                <p>Lima - Perú</p>
+            </div>
+            <div>
+                <p>Telefono : 99112233</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://picsum.photos/200/300?random=1" alt="1" />
+                </figure>
+            </div>
+        </section>
+      </section>
+    </main>  
+  </form>  
+    <br>
+    <footer>
+      <div>
+        <h6>Todos los derechos reservados - 2021</h6>
+      </div>
+      <div>
+          <h6>Desarrollado por código</h6>        
+      </div>
+    </footer>
+  </body>
+</html>
